@@ -1,0 +1,8 @@
+{
+  "name": "atick-examples",
+  "private": true,
+  "description": "Runnable ATick examples — npm install, then `node sign_pfx.js`",
+  "dependencies": {
+    "atick": "file:../atick-1.0.5.tgz"
+  }
+}

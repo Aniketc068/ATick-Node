@@ -1,0 +1,32 @@
+name: publish
+# Publishes the `atick` npm package via npm Trusted Publishing (OIDC — no token stored).
+# Triggered by pushing a v* tag, or manually. Configure the trusted publisher on npmjs.com:
+#   package `atick` -> Trusted Publisher -> GitHub -> Aniketc068/ATick-Node, workflow publish.yml
+on:
+  push:
+    tags: ["v*"]
+  workflow_dispatch:
+
+permissions:
+  id-token: write      # OIDC token for npm Trusted Publishing + provenance
+  contents: read
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          registry-url: "https://registry.npmjs.org"
+      - name: Use latest npm (Trusted Publishing needs npm >= 11.5)
+        run: npm install -g npm@latest
+      - name: Publish to npm (skip if this version is already published)
+        run: |
+          V=$(node -p "require('./package.json').version")
+          if npm view "atick@$V" version >/dev/null 2>&1; then
+            echo "atick@$V is already on npm — nothing to publish."
+          else
+            npm publish --provenance --access public
+          fi

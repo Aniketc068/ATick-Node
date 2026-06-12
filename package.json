@@ -1,0 +1,52 @@
+{
+  "name": "atick",
+  "version": "1.0.5",
+  "description": "Standalone PDF digital-signature library for Node.js — PAdES/CMS signing (PFX/PEM, deferred eSign/HSM/token), RFC-3161 timestamps, long-term validation and a green-tick appearance Adobe shows as valid. Prebuilt native addon, cross-platform, no build step.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "prebuilds/",
+    "README.md",
+    "LICENSE",
+    "NOTICE",
+    "LICENSING.md"
+  ],
+  "engines": {
+    "node": ">=10.16"
+  },
+  "keywords": [
+    "pdf",
+    "digital-signature",
+    "pades",
+    "esign",
+    "sign-pdf",
+    "ltv",
+    "timestamp",
+    "cms",
+    "pkcs7",
+    "acrobat"
+  ],
+  "author": "Aniket Chaturvedi",
+  "license": "AGPL-3.0-or-later",
+  "homepage": "https://github.com/Aniketc068/ATick-Node",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aniketc068/ATick-Node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Aniketc068/ATick-Node/issues"
+  },
+  "os": [
+    "win32",
+    "linux",
+    "darwin"
+  ],
+  "cpu": [
+    "x64",
+    "ia32",
+    "arm64",
+    "arm"
+  ]
+}

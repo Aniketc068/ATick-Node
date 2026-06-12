@@ -1,0 +1,12 @@
+# Node
+node_modules/
+npm-debug.log*
+*.tgz
+
+# documentation build output
+/docs/_build/
+
+# scratch
+*.bak
+examples/signed/
+examples/node_modules/

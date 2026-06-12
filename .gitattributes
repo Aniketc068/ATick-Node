@@ -1,0 +1,6 @@
+# Keep GitHub's language statistics focused on the JavaScript/TypeScript library.
+docs/**            linguist-documentation
+prebuilds/**       linguist-vendored
+.github/**         linguist-vendored
+*.node             binary
+examples/**/signed/** linguist-generated

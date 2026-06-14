@@ -14,6 +14,7 @@
 [![Also for Python](https://img.shields.io/badge/also%20for-Python-3776AB?logo=python&logoColor=white)](https://github.com/Aniketc068/ATick-Python)
 [![Also for Java](https://img.shields.io/badge/also%20for-Java-007396?logo=openjdk&logoColor=white)](https://github.com/Aniketc068/ATick-Java)
 [![Also for .NET](https://img.shields.io/badge/also%20for-.NET-512BD4?logo=dotnet&logoColor=white)](https://github.com/Aniketc068/ATick-DotNet)
+[![Also for PHP](https://img.shields.io/badge/also%20for-PHP-777BB4?logo=php&logoColor=white)](https://github.com/Aniketc068/ATick-PHP)
 
 </div>
 
@@ -24,6 +25,7 @@
 | **Python** | `pip install atick` | [ATick-Python](https://github.com/Aniketc068/ATick-Python) · [docs](https://atick.readthedocs.io/) |
 | **Java** | `io.github.aniketc068:atick` (Maven) | [ATick-Java](https://github.com/Aniketc068/ATick-Java) · [docs](https://atick-java.readthedocs.io/) |
 | **.NET** | `dotnet add package ATick` | [ATick-DotNet](https://github.com/Aniketc068/ATick-DotNet) · [docs](https://atick-dotnet.readthedocs.io/) |
+| **PHP** | `composer require aniketc068/atick` | [ATick-PHP](https://github.com/Aniketc068/ATick-PHP) · [docs](https://atick-php.readthedocs.io/) |
 
 ---
 

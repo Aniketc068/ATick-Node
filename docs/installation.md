@@ -24,7 +24,7 @@ pnpm add atick
 
 ```js
 const atick = require("atick");
-console.log(atick.version());   // e.g. 1.0.5
+console.log(atick.version());   // e.g. 1.0.6
 ```
 
 ## How the native addon is loaded

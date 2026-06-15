@@ -1,6 +1,6 @@
 {
   "name": "atick",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Standalone PDF digital-signature library for Node.js — PAdES/CMS signing (PFX/PEM, deferred eSign/HSM/token), RFC-3161 timestamps, long-term validation and a green-tick appearance Adobe shows as valid. Prebuilt native addon, cross-platform, no build step.",
   "main": "index.js",
   "types": "index.d.ts",

@@ -41,7 +41,7 @@ const pdf = fs.readFileSync("doc.pdf");
 const pfx = fs.readFileSync("my.pfx");
 
 const signed = atick.signPfx(pdf, pfx, JSON.stringify({
-  password: "••••", cn: "Aniket Chaturvedi", reason: "Approved",
+  password: "••••", cn: "Axonate Tech", reason: "Approved",
   green_tick: true, page: 1, rect: [300, 55, 575, 175],
   pades: true, timestamp: true, ltv: true,           // PAdES-B-LT
 }));
@@ -242,6 +242,6 @@ ATick is **dual-licensed** — free for personal & open use, paid if you sell:
   open-source projects (released publicly under AGPL-3.0).
 - **Commercial license (paid)** — if you **build a product with ATick and sell it**, or use it in a
   **closed-source / commercial** product, you must buy a commercial license first. Contact
-  **aniketc.pro@gmail.com** for a quote.
+  **info@axonatetech.com** for a quote.
 
-See [LICENSING.md](LICENSING.md) for details. © 2026 Aniket Chaturvedi.
+See [LICENSING.md](LICENSING.md) for details. © 2026 Axonate Tech.

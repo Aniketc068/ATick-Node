@@ -18,7 +18,7 @@ sd_hide_title: true
   "softwareVersion": "1.0.6",
   "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
   "license": "https://www.gnu.org/licenses/agpl-3.0.html",
-  "author": { "@type": "Person", "name": "Aniket Chaturvedi" },
+  "author": { "@type": "Person", "name": "Axonate Tech" },
   "url": "https://atick-node.readthedocs.io/",
   "codeRepository": "https://github.com/Aniketc068/ATick-Node",
   "downloadUrl": "https://www.npmjs.com/package/atick",
@@ -64,7 +64,7 @@ const fs = require("fs");
 const signed = atick.signPfx(
   fs.readFileSync("doc.pdf"),
   fs.readFileSync("my.pfx"),
-  JSON.stringify({ password: "••••", cn: "Aniket Chaturvedi", reason: "Approved",
+  JSON.stringify({ password: "••••", cn: "Axonate Tech", reason: "Approved",
     green_tick: true, page: 1, rect: [300, 55, 575, 175], pades: true, timestamp: true, ltv: true }),
 );
 fs.writeFileSync("signed.pdf", signed);

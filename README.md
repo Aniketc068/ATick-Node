@@ -22,10 +22,10 @@
 
 | Language | Install | Source · Docs |
 |---|---|---|
-| **Python** | `pip install atick` | [ATick-Python](https://github.com/Aniketc068/ATick-Python) · [docs](https://atick.readthedocs.io/) |
-| **Java** | `io.github.aniketc068:atick` (Maven) | [ATick-Java](https://github.com/Aniketc068/ATick-Java) · [docs](https://atick-java.readthedocs.io/) |
-| **.NET** | `dotnet add package ATick` | [ATick-DotNet](https://github.com/Aniketc068/ATick-DotNet) · [docs](https://atick-dotnet.readthedocs.io/) |
-| **PHP** | `composer require aniketc068/atick` | [ATick-PHP](https://github.com/Aniketc068/ATick-PHP) · [docs](https://atick-php.readthedocs.io/) |
+| **Python** | `pip install atick` | [ATick-Python](https://github.com/Aniketc068/ATick-Python) · [docs](https://atick-web.readthedocs.io/docs/python/) |
+| **Java** | `io.github.aniketc068:atick` (Maven) | [ATick-Java](https://github.com/Aniketc068/ATick-Java) · [docs](https://atick-web.readthedocs.io/docs/java/) |
+| **.NET** | `dotnet add package ATick` | [ATick-DotNet](https://github.com/Aniketc068/ATick-DotNet) · [docs](https://atick-web.readthedocs.io/docs/dotnet/) |
+| **PHP** | `composer require aniketc068/atick` | [ATick-PHP](https://github.com/Aniketc068/ATick-PHP) · [docs](https://atick-web.readthedocs.io/docs/php/) |
 
 ---
 
